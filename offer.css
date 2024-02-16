@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+}
+
+#one{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(179, 179, 203);
+   background-image: url(https://media.istockphoto.com/id/1463452333/photo/smart-farming-holding-young-plant-smart-farming-and-precision-agriculture-4-0-agriculture.webp?b=1&s=170667a&w=0&k=20&c=pinmWkLr7rWrZasDdYH8260l76h-og0PtLxZ3b-Yxe0=);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+}#nav {
+    /* position: fixed; */
+    display: flex;
+    height: 8%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.059);
+    justify-content: space-between;
+    align-items: center;
+}
+
+#photo {
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(114, 84, 39); */
+}
+
+#photo img {
+    margin-left: 10vw;
+    margin-top: 1vh;
+    height: 6vh;
+    width: 6vw;
+}
+
+#containt {
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+#containt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10vw;
+    padding-left: 2vw;
+}
+
+#containt a {
+    color: black;
+    text-decoration: none;
+    color: white;
+}
+
+#containt a:hover {
+    color: red;
+    font-size: 2.5vh;
+}
+#one h1{
+    color: rgb(230, 54, 54);
+    font-size:8.5vh ;
+    font-family: Arial, Helvetica, sans-serif;
+     padding-top: 30vh;
+     padding-left: 4vw; 
+}
+#one1 {
+    color: rgba(255, 255, 255, 0.995);
+    font-size:3.5vh ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 4vh;
+    padding-left: 12vw;
+    padding-right: 15vw;
+}#two2{
+    color: rgba(255, 255, 255, 0.995);
+    font-size:3.5vh ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2vh;
+    padding-left: 18vw;
+}#explore{
+    position: absolute;
+    top: 65vh;
+    left:40vw ;
+    height: 5vh;
+    width: 7vw;
+    background-color: rgb(103, 189, 103);
+    border-radius: 7%;
+}
+#second{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+#left{position: relative;
+    height: 90vh;
+    width: 30vw;
+    /* background-color: #8f818165; */
+    margin: 2vh;
+    margin-left: 3vw;
+    margin-top: 5vh;
+}
+#midle{
+    height: 90vh;
+    width: 30vw;
+    /* background-color: #a12f2f; */
+     margin: 2vh;
+     margin-top: 5vh;
+}#right{
+    height: 90vh;
+    width: 30vw;
+    /* background-color: #271c1c; */
+     margin: 2vh;
+     margin-top: 5vh;
+}
+.top{
+    height: 40%;
+    width: 100%;
+    background-color: #594c4c;
+}
+.toph1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4vh;
+    
+}
+.topp{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5vh;
+    font-size:2.5vh ;
+    line-height: 5vh;
+     
+}
+.top img{
+height: 100%;
+width: 100%;
+background-position: center;
+background-size: cover;
+}
+@media (max-width:600px){
+    #one {
+    height: 100vh;
+    width: 103vw;
+    background-color: rgb(179, 179, 203);
+    background-image: url(https://media.istockphoto.com/id/1463452333/photo/smart-farming-holding-young-plant-smart-farming-and-precision-agriculture-4-0-agriculture.webp?b=1&s=170667a&w=0&k=20&c=pinmWkLr7rWrZasDdYH8260l76h-og0PtLxZ3b-Yxe0=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    }
+    #nav {
+        /* position: fixed; */
+        display: flex;
+        height: 18vw;
+        width: 100vw;
+        background-color: rgba(255, 255, 255, 0.059);
+        justify-content: space-between;
+        align-items: center;
+    }
+    #photo img {
+        margin-left: 5vw;
+        margin-top: 2vh;
+        height: 4vh;
+        width: 14vw;
+    }
+    #containt a {
+        color: black;
+        text-decoration: none;
+        color: white;
+        font-size: 1.5vh;
+        /* font-family: Arial, Helvetica, sans-serif; */
+    }
+    #containt {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1vw;
+        padding-left: 1vw;
+    }
+    #containt {
+        height: 100%;
+        width: 69vw;
+        /* background-color: blue; */
+    }
+    #one h1 {
+        color: rgb(230, 54, 54);
+        font-size: 7vh;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        padding-top: 11vh;
+        padding-left: 6vw;
+    }
+    
+    #one1 {
+        width: 105vw;
+        color: rgba(255, 255, 255, 0.995);
+        font-size: 3.5vh;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 6vh;
+        padding-left: 8vw;
+        padding-right: 15vw;
+        text-align: justify;
+    }#two2 {
+        text-align: justify;
+        color: rgba(255, 255, 255, 0.995);
+        font-size: 3.5vh;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 0.4vh;
+        padding-left: 8vw;
+        width: 89vw;
+    }
+    #explore {
+        position: absolute;
+        top: 91vh;
+        left: 34vw;
+        height: 7vh;
+        width: 29vw;
+        background-color: rgb(103, 189, 103);
+        border-radius: 7%;
+    }
+    #second {
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    #left {
+        position: relative;
+        height: 90vh;
+        width: 100vw;
+        /* background-color: #8f818165; */
+        margin: 2vh;
+        margin-left: 3vw;
+        margin-top: 5vh;
+    }
+    #midle {
+        height: 90vh;
+        width: 100vw;
+        /* background-color: #a12f2f; */
+        margin: 2vh;
+        margin-top: 5vh;
+    }
+    #right {
+        height: 90vh;
+        width: 100vw;
+        /* background-color: #271c1c; */
+        margin: 2vh;
+        margin-top: 5vh;
+    }
+}
+
+
